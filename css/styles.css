@@ -10,7 +10,7 @@ body {
 }
 
 .centered {
-/*
+    /*
         padding: 5px 5px 5px 5px;
 
     margin: 10px auto 10px auto;
@@ -79,6 +79,26 @@ ul,
 ol {
     font-size: 14pt;
 }
+
+
+
+form p {
+    display: flex;
+}
+
+form label {
+    flex-basis: 33%;
+}
+
+form input,
+textarea,
+select {
+    flex: 1;
+    margin: 0 1em;
+    border-radius: 5px;
+}
+
+
 
 @media screen and (max-width: 30rem) {
 
